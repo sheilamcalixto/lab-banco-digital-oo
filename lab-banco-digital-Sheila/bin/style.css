@@ -1,0 +1,229 @@
+:root{
+    --vermelho: #E50914;
+    --preta: #141414
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+/*Elementos base*/
+
+body{
+    background: var(--preta);
+    font-family: Times, serif;
+    color: white;
+
+}
+
+header .container{
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+    justify-content: left
+
+}
+header .logo{
+    margin-left: 5px;
+    margin-right: 50px;
+    color: #0a978e;
+    font-family: 'Arial black', Times;
+    font-size:  40px;
+
+}
+
+header nav a{
+    text-decoration: none;
+    color: rgb(54, 208, 7);
+    margin-right: 10px;
+    
+   
+}
+ 
+header nav a:hover{
+    color:rgb(239, 223, 10);
+}
+
+
+   /*Filme principal*/
+
+   .filme-principal{
+       font-size: 16px;
+       background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50) 100%), url("../imagens/final.jpg");
+  
+
+       height: 500px;
+       background-size: cover;
+
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: flex-start;
+   }
+
+   .filme-principal .descricao{
+       margin-top: 10px;
+       margin-bottom: 40px;
+   }
+
+   .filme-principal .titulo{
+       margin-top: 15%;
+       font-size: 40px;
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   }
+
+  
+   .botao{
+    
+       background-color: rgba(0,0,0,.50);
+       border: none;
+       color: rgba(255, 255, 255, 0);
+
+       padding: 15px 30px;
+       margin-right: 15px;
+       font-size: 12px;
+       cursor: pointer;
+       transition: .3s ease all;
+   }
+
+   .botao:hover{
+       background-color: rgba(255, 255, 255, 0);
+       color: black;
+   }
+
+   .botao i{
+       margin-right: 8px;
+   }
+
+   .botao i a{
+    text-decoration: none;
+   }
+
+    
+.container {
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+    
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+    
+.carrosel-filmes{
+    margin-top: 5px;
+}
+
+.serie .container{
+    padding-top: 15px;
+    padding-left: 16px;
+   font-size: 1.4vw;
+   vertical-align: bottom;
+   line-height: 1.25vw;
+   display: table-cell;
+    
+}
+.filme .container{
+    padding-top: 15px;
+    padding-left: 16px;
+   font-size: 1.4vw;
+   vertical-align: bottom;
+   line-height: 1.25vw;
+   display: table-cell;
+    
+}
+.documentarios .container{
+    padding-top: 15px;
+    padding-left: 16px;
+   font-size: 1.4vw;
+   vertical-align: bottom;
+   line-height: 1.25vw;
+   display: table-cell;
+    
+}
+
+.fim{
+    color: #E50914;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(77, 10, 160);
+}
+
+
+.container {
+    text-align: center;
+}
+
+
+
+.card {
+    box-shadow: 5px 5px 5px rgb(138, 46, 184);
+    background-color: rgb(160, 42, 178);
+    border-radius: 5px;
+    padding: 30px;
+
+
+}
+
+.card {
+    text-align:right;
+    width: 300px;
+    height: 300px;
+}
+ 
+.card-top {
+    text-align: center;
+}
+
+.card-grupo {
+    margin-bottom: 5px;
+    
+}
+
+/* Botão principal */
+.card-grupo > label {
+    display: block;
+    width: 50px;
+    color: bisque;
+}
+
+.card-grupo > input {
+    border-radius: 10px;
+    outline: 0;
+    width: 100%;
+
+    height: 30px;
+    padding: 5px;
+}
+
+.card-grupo > button {
+    background-image: linear-gradient(to left, rgb(62, 15, 157),blue);
+    width: 100%;
+    border-radius: 30px;
+    padding: 15px;
+    color: white;
+    border: 0px;
+    outline: 0;
+}
+
+
+.titulo{
+    font-family: 'Arial black', Times;
+    font-size:  20px;
+    color: black;
+    
+}
+
